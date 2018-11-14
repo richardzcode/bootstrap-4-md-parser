@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-4-md-parser",
+  "version": "0.0.1",
+  "description": "Markdown parser output HTML with bootstrap 4 classes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardzcode/bootstrap-4-md-parser.git"
+  },
+  "keywords": [
+    "markdown",
+    "bootstrap"
+  ],
+  "author": "Richard Zhang <richardzcode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardzcode/bootstrap-4-md-parser/issues"
+  },
+  "homepage": "https://github.com/richardzcode/bootstrap-4-md-parser#readme",
+  "dependencies": {
+    "remarkable": "^1.7.1"
+  }
+}
