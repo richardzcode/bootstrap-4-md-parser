@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-md-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Markdown parser output HTML with bootstrap 4 classes",
   "main": "src/index.js",
   "scripts": {
