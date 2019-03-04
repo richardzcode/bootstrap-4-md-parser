@@ -66,6 +66,7 @@ module.exports = function(options) {
   md.fetch = function(uri) {
     return fetch(uri)
       .then(response => response.text())
+      .then(text => md.beforeRender? md.beforeRender(text) : text)
       .then(text => md.render(text));
   }
 
