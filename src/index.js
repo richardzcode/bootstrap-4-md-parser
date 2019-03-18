@@ -70,5 +70,11 @@ module.exports = function(options) {
       .then(text => md.render(text));
   }
 
+  md.renderLines = function(lines, separator) {
+    if (!separator) { separator = '\n'; }
+    const text = [].concat(lines).join(separator);
+    return md.render(text);
+  }
+
   return md;
 }
